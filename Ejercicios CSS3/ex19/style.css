@@ -1,0 +1,4 @@
+p::before {
+  content: "Texto que añado antes del párrafo: ";
+  color: rgb(68, 0, 255); 
+}

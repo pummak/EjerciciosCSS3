@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(255, 255, 255);
+  }
+
+  @media (max-width: 600px) {
+    body {
+      background-color: rgb(255, 0, 0);
+    }
+  }

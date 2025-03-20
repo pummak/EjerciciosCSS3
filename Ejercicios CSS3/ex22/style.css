@@ -1,0 +1,23 @@
+.animate-box {
+    width: 325px; 
+    height: 325px;
+    background-color: rgb(183, 0, 255);
+    position: relative;
+    animation: move-right 1.2s infinite;
+    position: absolute; 
+    top: 35%;
+    left: 50%;
+
+  }
+
+  @keyframes move-right {
+    0% {
+      left: 0; 
+    }
+    50% {
+      left: 1600px;
+    }
+    100% {
+      left: 0;
+    }
+  }
